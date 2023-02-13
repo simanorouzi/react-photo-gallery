@@ -1,0 +1,47 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.albums {
+  padding: 0;
+  margin: 0;
+}
+.albums li {
+  margin: 10px 0;
+  border: solid 1px #eee;
+  padding: 5px;
+  border-radius: 2px;
+}
+.albums li a {
+  text-decoration: none;
+  color: rgb(107, 107, 107);
+}
+
+.albums li a:visited {
+  color: rgb(204, 17, 148);
+}
+
+.albums li a:hover {
+  color: rgb(2, 248, 2);
+}
+
+.photo-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.photo-list img {
+  height: auto;
+  width: 100px;
+}
+
+.photo-list a {
+  text-decoration: none;
+  width: 100px;
+}
+.photo-list span {
+  width: 100px;
+  color: rgb(120, 117, 129);
+}
