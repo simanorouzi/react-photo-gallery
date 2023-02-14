@@ -22,6 +22,7 @@ export type PhotoType = {
 export type UseHttpType = {
   url: string;
   request: HttpRequestType;
+  applyFunction: (data) => void;
 };
 
 export type HttpRequestType = {
